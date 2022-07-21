@@ -94,18 +94,4 @@ void Sorting<T>::SelectionSortD()
     }
 }
 
-int main()
-{
-    int iSize = 0;
-
-    cout<<"Enter size of array : "<<endl;
-    cin>>iSize;
-
-    Sorting<char> *ptr = new Sorting<char>(iSize);
-    ptr->Accept();
-    ptr->Display();
-    ptr->SelectionSortD();
-    ptr->Display();
-
-    return 0;
-}
+// Write your main function here
