@@ -163,29 +163,4 @@ T Searching<T>::BinarySearchD(T No)
     }
 }
 
-
-int main()
-{
-    int iSize = 0 , iValue = 0;
-
-    cout<<"Enter size of array : "<<endl;
-    cin>>iSize;
-
-    Searching <int>sobj(iSize);
-    sobj.Accept();
-    sobj.Display();
-
-    cout<<"Enter a number to search : "<<endl;
-    cin>>iValue;
-
-    int iRet = sobj.BinarySearchD(iValue);
-    if(iRet == -1)
-    {
-        cout<<"Element is not present in array"<<endl;
-    }
-    else
-    {
-        cout<<"Element is present in array at index : "<<iRet<<endl;
-    }
-    
-}
+// Write your main function here
